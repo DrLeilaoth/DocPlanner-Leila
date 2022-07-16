@@ -1,0 +1,585 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ 
+}
+
+
+html, body {
+    max-width: 90%;
+    overflow-x: hidden;
+    margin: auto;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:15px ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+img{
+    width: 268px;
+    height: 33px;
+}
+.navBar{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+
+       
+}
+header a { 
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: gray;
+}
+.aboutus a {
+    color:#00b39b;
+}
+.Career:hover {
+    color:#00b39b;
+}
+#Departements:hover{
+    color:#00b39b;
+}
+.dropDawn {
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: gray;
+    width: 44%;
+    left: 275px;
+    padding: 11px;
+    display: none;
+   
+    
+}
+#Departements:hover .dropDawn{
+    display: block;
+}
+.dropDown li:hover{
+    color: #00b39b;
+    background-color: #d3d0d0;
+}
+.logo {
+    width: 55px;
+    height: 48px;
+    display: block;
+    margin-left: 727px;
+    margin-top: 57px;
+    
+}
+main h1{
+    display:flex;
+    justify-content: center;
+    color:#00b39b;
+    font-weight: 70;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 52px;
+
+
+}
+#main-aboutus {
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+#main-aboutus-para1 {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    width: 100%;
+    margin-left: 275px;
+    
+}
+#main-aboutus-para2 {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    width: 100%;
+    }
+#patients-doctors-clinics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 111px;
+}
+#For-patients{
+    border: 1px solid #00CCB1;
+    border-radius: 10px;
+    background-color:#00CCB1;
+    font-size: 100%;
+    padding-top:50px ;
+    padding-left: 20px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    color: white;   
+}
+#For-patients img {
+    border-right-width: 206px;
+    padding-right: 234px;
+}
+#For-patients p {
+    padding-top: 35px;
+}
+#For-patients h5 {
+    padding-top: 60px;
+}
+#For-doctors {
+    border: 1px solid #3D83DF;
+    border-radius: 10px;
+    background-color:#3D83DF;
+    font-size: 100%;
+    padding-top:50px ;
+    padding-left: 20px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    color: white; 
+}
+#For-doctors img {
+    border-right-width: 206px;
+    padding-right: 234px;   
+}
+#For-doctors p {
+    padding-top: 35px;
+}
+#For-doctors h5 {
+    padding-top: 60px;
+}
+#For-clinics {
+    border: 1px solid #1B2734;
+    border-radius: 10px;
+    background-color:#1B2734;
+    font-size: 100%;
+    padding-top:50px ;
+    padding-left: 20px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    color: white;
+}
+#For-clinics img {
+    border-right-width: 206px;
+    padding-right: 234px;  
+}
+#For-clinics p {
+    padding-top: 35px;
+}
+#For-clinics h5 {
+    padding-top: 25px;
+}
+.title-we-are {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    width: 71%;
+    margin-left: 249px;
+}
+    
+.title-we-are h2{
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    padding-top: 14px;
+    color:#00b39b;
+    font-weight: 70;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+
+}
+.title-we-are-L1{
+    display: flex; 
+    justify-content: left; 
+    list-style: none; 
+    
+}
+.title-we-are-L1 li {
+    padding-right: 60px;
+    
+}
+.title-we-are-L2{
+    display: flex;
+    padding-top: 25px;
+    list-style: none; 
+   
+}
+.title-we-are-L2 li {
+    padding-right: 20px;
+    
+}
+.title-we-are-L2 img {
+    color: gray;
+    width:89px
+}
+svg {width: 120px;
+    fill: gray;
+}
+svg:hover {
+    fill: #00CCB1;
+}
+.title-we-are img{
+    width: 119px;
+    color: gray;
+
+}
+.L1-L2 {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.section3{
+    background-color:#D9F6F6 ;
+ 
+
+}
+.healthcare-platform-L-A-P-D {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 520px;
+    padding-right: 300px;
+
+}
+.healthcare-platform-L-A-P-D img{
+    max-width: 5%;
+    height: auto;
+}
+.healthcare-platform {
+    width: 220px;
+    height: 198.750px;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 30%;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+.healthcare-platform img{
+    max-width: 100%;
+    height: auto;
+}
+/* .L-A {
+    display: flex;
+} */
+.Leader {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    border:1px solid #ffffff;
+    background-color:#ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    width: 220px;
+    height: 198.750px;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    margin: 2.5%;
+    margin-top: 60px;
+}
+.Appointements {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    border:1px solid #ffffff;
+    background-color:#ffffff;
+    display:table-cell;
+    vertical-align: middle;
+    width: 220px;
+    height: 198.750px;
+    position:relative;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 2.5%;
+    margin-top: 50px;
+    padding-top: 43px;
+}
+.Patients {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    border:1px solid #ffffff;
+    background-color:#ffffff;
+    display:table-cell;
+    vertical-align: middle;
+    width: 220px;
+    height: 198.750px;
+    position:relative;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 2.5%;
+    padding-top: 61px;
+}
+.Doctors {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    border:1px solid #ffffff;
+    background-color:#ffffff;
+    display:table-cell;
+    vertical-align:middle;
+    width: 220px;
+    height: 198.750px;
+    position:relative;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 2.5%;
+    margin-top: 0px;
+    padding-top: 49px;
+
+}
+.healthcare-platform {
+    /* border:1px solid green; */
+    background-color:#D9F6F6;
+    height: auto;
+    margin-left: 35px;
+    margin: auto;
+    margin-top: 80px;
+    width: 60%;
+    
+    
+}
+.healthcare-platform h2{
+    font-size: 29.125px;
+    color: #00b39b;
+    font-weight: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.healthcare-platform p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    color: grey;
+}
+.section3 {
+    position: relative;
+    overflow: hidden;
+}
+#logo {
+    width: 334px;
+    height: 278px;
+    display: block;
+    margin-top: 84px;
+    position: absolute;
+}
+
+.L-A{
+    display: flex;
+}
+.P-D{
+    display: flex;
+}
+.Leader h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.Appointements h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.Patients h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.Doctors h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.L-A-P-D img {
+    max-width: 12%;
+    height: auto;
+}
+.img {
+    align-items: center;
+    display: flex;
+    justify-content: space-around
+}
+.section4 h3 {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+    padding-top: 14px;
+    font-weight: 70;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+}
+.p {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+.section3 {
+    margin-top: 46px;
+}
+.section4 p {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    width: 100%;
+    margin-left:  694px;
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 218px;
+    text-align: center;
+    margin-left: auto;
+}
+   
+
+
+.section5{
+  margin-top: 80px;
+
+}
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+}
+.col1 {
+
+height: 311.625;
+width: 350.188;
+}
+.row2 {
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 525px
+}
+.section5 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.content {
+display: flex;
+justify-content: space-around;
+margin-top:15px ;
+margin-bottom: 15px
+}
+.content h5 {
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content button{
+float: right;
+border-radius: 4px;
+border: 0px;
+background: #3d83df;
+font-family: Roboto,Arial,sans-serif;
+font-weight: bold;
+line-height: 1em;
+text-align: center;
+color: white ;
+padding:15px;
+
+}
+.row2{
+    margin-top: 20px;
+}
+.row3{
+    margin-top: 20px;
+}
+.section6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto,Arial,sans-serif;
+    margin-top: 50px;
+}
+.section6 p{
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-weight:50px;
+}
+.section6 button {
+    float: right;
+    border-radius: 4px;
+    border: 0px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: center;
+    color: white ;
+    padding:15px;
+    
+}
+.section-6-footer{
+    text-align: center;
+    font-family: Roboto,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.section-6-footer p{
+    margin-bottom: 0.4em;
+    font-size: 12px;
+    color: #ababab;
+    margin: 1.6em 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+li:hover{
+    color: #00CCB1;
+}
+/* .title-we-are-L1 li:hover {
+color: #00CCB1;
+} */
+.col:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
